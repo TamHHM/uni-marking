@@ -12,7 +12,7 @@ app = dash.Dash(__name__,
                 suppress_callback_exceptions=False,
                 external_stylesheets=external_stylesheets)
 
-comments = pd.read_csv("S1_2022/QBUS6840_2022S1_Comments.csv")
+comments = pd.read_csv("S1_2022/QBUS6840_2022S1_Comments.csv", delimiter="\t")
 test_data = pd.read_csv("S1_2022/CPI_test.csv")
 
 app.layout = html.Div([
