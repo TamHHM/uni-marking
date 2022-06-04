@@ -1,0 +1,11 @@
+pandas
+dash
+pyperclip
+jupyter
+matplotlib
+statsmodels
+tqdm
+#  conda install -c apple tensorflow-deps
+tensorflow-macos
+tensorflow-metal
+# conda install -c conda-forge jupyter jupyterlab -y
