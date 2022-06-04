@@ -101,7 +101,7 @@ def compute_mse(txt):
             print("Do nothing!")
 
     data = np.array(data)
-    return np.sum(np.power(data - test_data.CPI, 2))
+    return np.mean(np.power(data - test_data.CPI, 2))
 
 
 @app.callback(
